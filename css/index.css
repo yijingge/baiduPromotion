@@ -1,0 +1,402 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  width: 100%;
+  height: 2rem;
+  background-color: #ffffff;
+  padding: 0 .6rem 0 .6rem;
+  box-shadow: 0rem 0.08rem 0.16rem 0rem rgba(211, 211, 211, 0.4);
+}
+header h1 {
+  margin: 0;
+}
+header h1 img {
+  width: 4.16rem;
+  height: 1.16rem;
+  margin-top: .48rem;
+}
+header button {
+  width: 2.8rem;
+  height: 1.2rem;
+  background-color: #49A6E8;
+  border-radius: 0.16rem;
+  font-family: PingFang-SC-Bold;
+  font-size: 0.48rem;
+  color: #ffffff;
+  margin-top: .44rem;
+}
+.customBox {
+  background: url("../imgs/1.jpg") no-repeat top center;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+  padding-top: 6.3rem;
+  margin-top: 2rem;
+}
+.customBox .customContent {
+  width: 13.8rem;
+  margin: 0 auto;
+}
+.customBox .customContent .customMenu {
+  font-size: 18px;
+  color: #000;
+  position: relative;
+  height: 2rem;
+}
+.customBox .customContent .customMenu div {
+  position: absolute;
+  bottom: 0;
+  width: 8rem;
+  height: 1.8rem;
+  line-height: 1.8rem;
+  font-size: 0.6rem;
+  background-color: rgba(0,0,0,.5);
+  color: #fff;
+  border-radius: 0;
+}
+.customBox .customContent .customMenu .selected {
+  width: 5.88rem;
+  background: #fff;
+  color: #333333;
+  height: 2rem;
+  line-height: 2rem;
+}
+.customBox .customContent .customMenu .selected:after {
+  content: "";
+  display: block;
+  height: 2rem;
+  width: 1rem;
+  transform: skewX(15deg);
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  right: -.5rem;
+  z-index: 2;
+  border-top-right-radius: .2rem;
+}
+.customBox .customContent .customMenu .transfer-btn.selected:after {
+  left: -.5rem;
+  transform: skewX(-15deg);
+  border-top-left-radius: .2rem;
+}
+.customBox .customContent .customMenu .pickup-btn {
+  left: 0;
+  text-align: left;
+  padding-left: 1.5rem;
+  border-top-left-radius: .2rem;
+}
+.customBox .customContent .customMenu .transfer-btn {
+  right: 0;
+  text-align: right;
+  padding-right: 1.4rem;
+  border-top-right-radius: .2rem;
+}
+.customBox .customContent .customFrame {
+  height: 9.5rem;
+  background-color: #ffffff;
+  box-shadow: 0rem 0.08rem 0.16rem 0rem rgba(211, 211, 211, 0.4);
+  border-radius: 0rem 0rem 0.4rem 0.4rem;
+  padding-top: .8rem;
+}
+.customBox .customContent .customFrame .group {
+  display: none;
+}
+.customBox .customContent .customFrame .frame-line {
+  padding: 0 .8rem;
+  text-align: center;
+  margin-bottom: .58rem;
+}
+.customBox .customContent .customFrame .frame-line:nth-of-type(3) {
+  margin-bottom: .78rem;
+}
+.customBox .customContent .customFrame .frame-line input {
+  display: inline-block;
+  width: 100%;
+  height: 1.4rem;
+  border: solid 0.04rem #e0e0e0;
+  padding-left: .4rem;
+}
+.customBox .customContent .customFrame .frame-line.name-tel input {
+  width: 4.6rem;
+}
+.customBox .customContent .customFrame .frame-line.name-tel input::-webkit-input-placeholder {
+  color: #999;
+}
+.customBox .customContent .customFrame .frame-line.name-tel input:nth-child(2) {
+  width: 7.2rem;
+}
+.customBox .customContent .customFrame .btn {
+  margin: 0 auto;
+  width: 11.6rem;
+  height: 1.72rem;
+  line-height: 1.72rem;
+  background-image: linear-gradient(-90deg, #5ee8c7 0%, #3b99fc 100%), linear-gradient(#e0e0e0, #e0e0e0);
+  background-blend-mode: normal, normal;
+  box-shadow: 0rem 0.12rem 0.16rem 0rem rgba(60, 145, 251, 0.3);
+  border-radius: 0.86rem;
+  font-size: 0.68rem;
+  color: #ffffff;
+  text-align: center;
+}
+.customBox .customContent .customFrame .btn:active {
+  opacity: .8;
+}
+.customBox .advantages {
+  width: 13.82rem;
+  height: 1.22rem;
+  margin: .5rem auto .58rem;
+  font-size: 0.48rem;
+  color: #999999;
+  display: flex;
+  justify-content: space-between;
+}
+.customBox .advantages>div {
+  text-align: center;
+}
+.recommendBox {
+  padding: 0 0 .82rem;
+  background-color: #ffffff;
+  box-shadow: 0rem 0.08rem 0.16rem 0rem rgba(211, 211, 211, 0.4);
+  margin-bottom: .6rem;
+}
+.recommendBox .swiper-slide {
+  width: 10.6rem;
+  height: 19rem;
+  border-radius: 0.4rem;
+  border: solid 0.04rem #e1e1e1;
+}
+.recommendBox .swiper-slide img {
+  width: 99.99%;
+}
+.recommendBox .swiper-slide .btn {
+  width: 8.8rem;
+  height: 1.4rem;
+  border-radius: 0.7rem;
+  border: solid 0.04rem #00a3ff;
+  font-size: 0.64rem;
+  line-height: 1.4rem;
+  color: #00a3ff;
+  text-align: center;
+  margin: 0 auto;
+}
+.recommendBox .swiper-slide .btn:active {
+  background-color: #dff3ff;
+}
+.starCustomizer {
+  padding-bottom: .7rem;
+  background-color: #fff;
+}
+.starCustomizer .btn {
+  width: 8.8rem;
+  height: 1.4rem;
+  border-radius: 0.7rem;
+  border: solid 0.04rem #00a3ff;
+  margin: .66rem auto 0;
+  font-family: PingFang-SC-Medium;
+  font-size: 0.64rem;
+  line-height: 1.4rem;
+  color: #00a3ff;
+  text-align: center;
+}
+.starCustomizer .btn:active {
+  background-color: #dff3ff;
+}
+.openCustomizedTourism {
+  /*margin-bottom: 2rem;*/
+}
+.openCustomizedTourism .frameBox {
+  background-color: #EEEEEE;
+  padding-bottom: 1.28rem;
+}
+.openCustomizedTourism .frameBox .frameContent {
+  width: 11.6rem;
+  margin: 0 auto;
+}
+.openCustomizedTourism .inputs {
+  text-align: center;
+  width: 11.6rem;
+  margin-bottom: .8rem;
+}
+.openCustomizedTourism .inputs:nth-of-type(2) {
+  margin-bottom: .84rem;
+}
+.openCustomizedTourism .inputs input {
+  width: 100%;
+  border-radius: 0.12rem;
+  padding-left: .4rem;
+  height: 1.4rem;
+}
+.openCustomizedTourism .inputs input::-webkit-input-placeholder {
+  color: #999;
+}
+.openCustomizedTourism .inputs.name-tel .fl {
+  width: 4rem;
+}
+.openCustomizedTourism .inputs.name-tel .fr {
+  width: 7.2rem;
+}
+.openCustomizedTourism .btn {
+  width: 11.6rem;
+  height: 1.72rem;
+  line-height: 1.72rem;
+  text-align: center;
+  background-image: linear-gradient(-90deg,
+  #5ee8c7 0%,
+  #3b99fc 100%),
+  linear-gradient(
+      #ffffff,
+      #ffffff);
+  background-blend-mode: normal,
+  normal;
+  box-shadow: 0rem 0.12rem 0.16rem 0rem
+  rgba(60, 145, 251, 0.3);
+  border-radius: 0.86rem;
+  font-size: 0.72rem;
+  color: #ffffff;
+}
+.openCustomizedTourism .btn:active {
+  opacity: .8;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 4;
+  width: 100%;
+  height: 2rem;
+  background-color: #ffffff;
+  border-top: solid 0.02rem #e1e1e1;
+  padding: 0 .72rem 0 .9rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.52rem;
+  color: #333333;
+}
+footer>div {
+  text-align: center;
+}
+footer>div i {
+  display: inline-block;
+  width: 0.98rem;
+  height: 0.88rem;
+  background: url("../imgs/zxzx.png") no-repeat center;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+footer>div:nth-child(2) i {
+  width: 1.08rem;
+  height: 0.9rem;
+  background: url("../imgs/hqfa.png") no-repeat center;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+footer>div:nth-child(3) i {
+  width: 1.02rem;
+  height: 0.96rem;
+  background: url("../imgs/kfrx.png") no-repeat center;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+.blank {
+  height: 2rem;
+  background-color: #EEEEEE;
+}
+/*修改picker样式开始*/
+.picker .picker-panel .picker-choose.cancelAndConfirm {
+  background-color: transparent;
+}
+.picker {
+  z-index: 9999!important;
+}
+/*修改picker样式结束*/
+.mask {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  background-color: rgba(0,0,0,.5);
+  z-index: 9999;
+  display: none;
+}
+.mask .bookingBox {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 3rem;
+  width: 11.4rem;
+  height: 14.4rem;
+  background-color: #ffffff;
+  border-radius: 0.2rem;
+}
+.mask .bookingBox .bookingContent {
+  width: 10.2rem;
+  margin: 0 auto;
+}
+.mask .bookingBox .bookingContent .inputs {
+  text-align: center;
+  margin-bottom: .58rem;
+}
+.mask .bookingBox .bookingContent .inputs:nth-of-type(2) {
+  margin-bottom: .74rem;
+}
+.mask .bookingBox .bookingContent .inputs input {
+  width: 100%;
+  border-radius: 0.12rem;
+  padding-left: .4rem;
+  height: 1.4rem;
+  border: solid 0.04rem #e0e0e0;
+}
+.mask .bookingBox .bookingContent .inputs input::-webkit-input-placeholder {
+  color: #999;
+}
+.mask .bookingBox .bookingContent .inputs.name-tel .fl {
+  width: 3.6rem;
+}
+.mask .bookingBox .bookingContent .inputs.name-tel .fr {
+  width: 6.2rem;
+}
+.mask .bookingBox .bookingContent .btn {
+  margin: 0 auto;
+  width: 9.6rem;
+  height: 1.72rem;
+  line-height: 1.72rem;
+  background-image: linear-gradient(-90deg,
+  #5ee8c7 0%,
+  #3b99fc 100%),
+  linear-gradient(
+      #e0e0e0,
+      #e0e0e0);
+  background-blend-mode: normal,
+  normal;
+  box-shadow: 0rem 0.12rem 0.16rem 0rem
+  rgba(60, 145, 251, 0.3);
+  border-radius: 0.86rem;
+  font-size: 0.68rem;
+  color: #ffffff;
+  text-align: center;
+}
+.mask .bookingBox .closeBtn {
+  position: absolute;
+  bottom: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: #ffffff;
+  opacity: 0.8;
+  background: url("../imgs/guanbi.png") no-repeat center;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+/*商桥链接*/
+#newBridge {
+  z-index: 999!important;
+}
+.mui-toast-container {bottom: 50% !important;}
+.btn.loading {
+  opacity: .3;
+}
+
+

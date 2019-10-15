@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="悠行旅游,定制,trip,tour,travel,tourism">
+  <meta name="description" content="这是一个关于旅游服务的网站">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="format-detection" content="telephone=yes"/>
+  <link rel="stylesheet" href="../css/mui.min.css">
+  <link rel="stylesheet" href="../css/mui.picker.min.css">
+  <link rel="stylesheet" href="../css/swiper.min.css">
+  <link rel="stylesheet" href="../css/init.css">
+  <link rel="stylesheet" href="../css/index.css">
+  <title>悠行定制旅游</title>
+  <link rel="shortcut icon" href="../imgs/logo.ico" type="image/x-icon" sizes="16x16">
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?0c17c93e84a237ed1c329ac9fdfc42c8";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+</head>
+<body>
+<header>
+  <h1 class="fl"><img src="../imgs/logo.png" alt="logo"></h1>
+  <button class="fr">预约出行</button>
+</header>
+<div class="customBox">
+  <div class="customContent">
+    <div class="customMenu">
+      <div class="pickup-btn selected" data-type="personal">私人定制</div>
+      <div class="transfer-btn" data-type="group">团建/公司定制</div>
+    </div>
+    <div class="customFrame">
+      <div class="personal">
+        <div class="frame-line name-tel clearfix">
+          <input type="text" placeholder="联系人" class="fl name-inp">
+          <input type="number" placeholder="联系电话" class="fr">
+        </div>
+        <div class="frame-line">
+          <input type="text" placeholder="请输入目的地" class="destination">
+        </div>
+        <div class="frame-line">
+          <input type="text" placeholder="请选择出发日期" class="monthPicker" readonly="readonly" >
+        </div>
+        <div class="btn" data-travelnature="personal">
+          开始定制专属旅行
+        </div>
+      </div>
+      <div class="group">
+        <div class="frame-line name-tel clearfix">
+          <input type="text" placeholder="联系人" class="fl">
+          <input type="number" placeholder="联系电话" class="fr">
+        </div>
+        <div class="frame-line">
+          <input type="text" placeholder="请输入目的地" class="destination">
+        </div>
+        <div class="frame-line">
+          <input type="text" placeholder="请选择出行人数" class="personsNum" readonly="readonly">
+        </div>
+        <div class="btn" data-travelnature="group">
+          开始定制专属旅行
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="advantages">
+    <div>
+      <p>5秒</p>
+      <p>提交您的行程需求</p>
+    </div>
+    <div>
+      <p>10分钟</p>
+      <p>定制师1对1沟通</p>
+    </div>
+    <div>
+      <p>2小时</p>
+      <p>生成定制行程方案</p>
+    </div>
+  </div>
+</div>
+<!--行程推荐-->
+<div class="recommendBox">
+  <div class="recommendTitle">
+    <img src="../imgs/3-1.jpg" alt="">
+  </div>
+  <div class="swiper-box">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="../imgs/3-2.jpg" alt="">
+          <div class="btn consultBtn">
+            详细行程咨询
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="../imgs/3-3.jpg" alt="">
+          <div class="btn consultBtn">
+            详细行程咨询
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="../imgs/3-4.jpg" alt="">
+          <div class="btn consultBtn">
+            详细行程咨询
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--旅行，为什么选择悠行旅游？-->
+<div>
+  <img src="../imgs/4-1.jpg" alt="">
+  <img src="../imgs/4-2.jpg" alt="">
+</div>
+<!--明星定制师-->
+<div class="starCustomizer"  style="margin: .56rem 0 .6rem">
+  <img src="../imgs/5.jpg" alt="">
+  <div class="btn consultBtn">
+    详细行程咨询
+  </div>
+</div>
+<!--评论-->
+<div>
+  <img src="../imgs/6-1.jpg" alt="">
+  <img src="../imgs/6-2.jpg" alt="">
+  <img src="../imgs/6-3.jpg" alt="" style="margin-top: -0.6rem;">
+</div>
+<!--定制-->
+<div class="openCustomizedTourism">
+  <img src="../imgs/7.jpg" alt="">
+  <div class="frameBox">
+    <div class="frameContent">
+      <div class="inputs name-tel clearfix">
+        <input type="text" placeholder="联系人" class="fl">
+        <input type="number" placeholder="联系电话" class="fr">
+      </div>
+      <div class="inputs">
+        <input type="text" placeholder="请输入目的地" class="destination">
+      </div>
+      <div class="btn">
+        开始定制专属旅行
+      </div>
+    </div>
+  </div>
+</div>
+<div class="blank">
+</div>
+<footer>
+  <div class="consultBtn">
+    <i></i>
+    <p>在线咨询</p>
+  </div>
+  <div class="getFreeSolution">
+    <i></i>
+    <p>免费获取方案</p>
+  </div>
+  <div>
+    <a href="tel:18068007577">
+      <i></i>
+      <p>客服热线</p>
+    </a>
+  </div>
+</footer>
+<!--提交需求mask-->
+<div class="mask bookingBoxMask">
+  <div class="bookingBox">
+    <img src="../imgs/fuchuang.png" alt="背景">
+    <div class="bookingContent">
+      <div class="inputs name-tel clearfix">
+        <input type="text" placeholder="联系人" class="fl">
+        <input type="number" placeholder="联系电话" class="fr">
+      </div>
+      <div class="inputs">
+        <input type="text" placeholder="请输入目的地" class="destination">
+      </div>
+      <div class="btn">
+        提交需求
+      </div>
+    </div>
+    <div class="closeBtn">
+    </div>
+  </div>
+</div>
+</body>
+</html>
+<script src="../js/jquery-1.12.4.min.js"></script>
+<script src="../js/mui.min.js"></script>
+<script src="../js/mui.picker.min.js"></script>
+<script src="../js/picker.min.js"></script>
+<script src="../js/swiper.min.js"></script>
+<script>
+  var swiper = new Swiper('.swiper-container', {
+    effect: 'coverflow',
+    centeredSlides: true,
+    spaceBetween: '20%',
+    slidesPerView: 'auto',
+    loop: true,
+    coverflowEffect: {
+      rotate: 0,
+      stretch: 0,
+      depth: 300,
+      modifier: 1,
+      slideShadows: false,
+    }
+  });
+  
+  //出行人数
+  var picker = new Picker({
+    data: [
+      [
+        {
+          text:"1-10人",
+          value:"1-10人"
+        },
+        {
+          text:"11-20人",
+          value:"11-20人"
+        },
+        {
+          text:"21-30人",
+          value:"21-30人"
+        },
+        {
+          text:"31-40人",
+          value:"31-40人"
+        },
+        {
+          text:"41-50人",
+          value:"41-50人"
+        },
+        {
+          text:"50人以上",
+          value:"50人以上"
+        },
+      ]
+    ],
+    title:"选择人数"
+  });
+  picker.on('picker.select', function(selectedVal, selectedIndex) {
+    $(".customFrame .personsNum").val(selectedVal[0]);
+  });
+  $(".personsNum").on("click",function () {
+    document.activeElement.blur();
+    picker.show();
+  })
+  
+  //出发时间
+  mui.init();
+  var btn = $('.monthPicker')[0]
+  btn.addEventListener('tap', function() {
+    document.activeElement.blur();
+    var _self = this;
+    if(_self.picker) {
+      _self.picker.show(function (rs) {
+        _self.picker.dispose();
+        _self.picker = null;
+      });
+    } else {
+      var options = {
+        type:"date"
+      }
+      var id = this.getAttribute('id');
+      _self.picker = new mui.DtPicker(options);
+      _self.picker.show(function(rs) {
+        $(".customFrame .monthPicker").val(rs.text);
+        _self.picker.dispose();
+        _self.picker = null;
+      });
+    }
+  }, false);
+</script>
+<script src="../js/index.js"></script>
